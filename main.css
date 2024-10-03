@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+    margin: 0px;
+    letter-spacing: 2px;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(23, 23, 23, 0.938);
+    color: white;
+    font-size: 0.8em;
+}
+.items-checklist-container{
+    height: 35%;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    border-radius: 5px;
+    background-color: #131313;
+    box-shadow: 2px 2px 1px 0px rgb(58, 58, 58), -2px -2px 1px 0px rgb(25, 25, 25);
+}
+.checklist{
+    list-style-type: none;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start  ;
+    align-items: start;
+}
+button{
+    height: 5%;
+    width: 10%;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+}
